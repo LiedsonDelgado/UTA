@@ -1,11 +1,12 @@
-//A biblioteca do ISECMAR empresta gratuitamente seus livros a alunos, professores e funcion·rios de toda a instituiÁ„o.
-//PorÈm, sempre que um utilizador atrasa a entrega de um livro, ele tem que pagar uma multa de 250 Esc. por cada dia de atraso.
-//Elabore um algoritmo que receba como entrada a quantidade de dias de atraso do emprÈstimo de um livro, e mostra o valor da multa
+//A biblioteca do ISECMAR empresta gratuitamente seus livros a alunos, professores e funcion√°rios de toda a institui√ß√£o.
+//Por√©m, sempre que um utilizador atrasa a entrega de um livro, ele tem que pagar uma multa de 250 Esc. por cada dia de atraso.
+//Elabore um algoritmo que receba como entrada a quantidade de dias de atraso do empr√©stimo de um livro, e mostra o valor da multa
 //a ser paga pelo utilizador.
 #include<stdio.h>
 void main(){
 int multa,dia_atraso;
  printf("\nInsira a quantidade de dias de atraso: ");
+ //E se o a pessoa nao tiver nenhum dia de atraso ou entrego antes do prazo limite???
  scanf("%d",&dia_atraso);
  multa=250*dia_atraso;
  printf("\nO valor da multa a ser paga e de: %d esc",multa);
