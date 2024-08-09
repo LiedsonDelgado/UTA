@@ -1,5 +1,5 @@
-//Elabore um algoritmo que leia o valor do sal·rio mÌnimo e o valor do sal·rio de
-//uma pessoa. Calcular e imprimir quantos sal·rios mÌnimos essa pessoa ganha.
+//Elabore um algoritmo que leia o valor do sal√°rio m√≠nimo e o valor do sal√°rio de
+//uma pessoa. Calcular e imprimir quantos sal√°rios m√≠nimos essa pessoa ganha.
 #include<stdio.h>
 void main()
 {
@@ -11,7 +11,7 @@ scanf("%f",&salariomin);
 printf("qual e o seu salario:");
 scanf("%f",&salariopessoal);
 
-quantsalarios=salariomin/salariopessoal;
+quantsalarios=salariopessoal/salariomin;
 
 printf("a quantidade de salarios minimos ganhos e:%.f",quantsalarios);
 }
