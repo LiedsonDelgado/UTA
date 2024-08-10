@@ -6,7 +6,7 @@
 #include<stdio.h>
 #include<math.h>
 #include<stdlib.h>
-#define e 1
+#define e 2,718 //(ou arredondar para e=2.72)
 void main()
 {
     float x,f;
