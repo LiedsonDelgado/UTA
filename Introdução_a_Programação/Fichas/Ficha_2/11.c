@@ -1,11 +1,12 @@
-//O índice de massa corporal (IMC) é uma medida usada para avaliar se uma pessoa
+//O Ã­ndice de massa corporal (IMC) Ã© uma medida usada para avaliar se uma pessoa
 //tem o peso ideal para a sua estatura. Elabore um programa que determina o IMC
-//do utilizador e classifica-o quanto às quatro categorias apresentadas na tabela abaixo:
+//do utilizador e classifica-o quanto Ã s quatro categorias apresentadas na tabela abaixo:
 //IMC: <18.5 [18.5, 25[ [25, 30[ 30 ou mais
-//Categoria: Magro Saudável Forte Obeso
+//Categoria: Magro SaudÃ¡vel Forte Obeso
 #include<stdio.h>
 void main()
 {
+    //!!!-CALCULAR O IMC COM BASE NA ALTURA E PESO(IMC=PESO/ALTURA^2)(PESO(kg) e ALTURA(m))-!!!
     float i;
     printf("Digite o seu indice de massa corporal: ");
     scanf("%f",&i);
