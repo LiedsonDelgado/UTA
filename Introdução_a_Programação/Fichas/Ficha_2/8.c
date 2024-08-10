@@ -1,5 +1,5 @@
-//Escreva um programa que peça a quantidade de litros de combustível de um abastecimento e determine o preço a pagar.
-//Considere que o combustível custa 160$00 por litro e que abastecimentos de mais de 40 litros têm um desconto de 5%.
+//Escreva um programa que peÃ§a a quantidade de litros de combustÃ­vel de um abastecimento e determine o preÃ§o a pagar.
+//Considere que o combustÃ­vel custa 160$00 por litro e que abastecimentos de mais de 40 litros tÃªm um desconto de 5%.
 #include<stdio.h>
 void main()
 {
@@ -12,6 +12,7 @@ void main()
         printf("\nO preco a pagar e de: %.3f\n",pagar);
     }
     else if(quant_litros>40){
+        //O Calculo com desconto de 5% esta mal!!!
         pagar=(quant_litros*160)*0.05;
         printf("\no total a pagar com um desconto de 5 porcento e de %.3f\n",pagar);
     }
